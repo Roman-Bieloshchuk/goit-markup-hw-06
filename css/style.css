@@ -390,3 +390,353 @@ img {
 }
 
 /* --------------------------------------------------------------HERO */
+
+.hero {
+  background-color: #2e2f42;
+  height: 432px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-mob-x1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: cover;
+  margin: auto;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+
+  max-width: 216px;
+  margin: 0 auto;
+}
+
+.hero-btn {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 16px 32px;
+  border: none;
+  min-width: 169px;
+  margin-top: 72px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 436px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tab-x1.jpg);
+  }
+
+  .hero-title {
+    font-size: 56px;
+    max-width: 496px;
+  }
+
+  .hero-btn {
+    margin-top: 36px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .hero {
+    height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-desc-x1.jpg);
+    max-width: 1440px;
+  }
+
+  .hero-title {
+    font-size: 56px;
+  }
+
+  .hero-btn {
+    margin-top: 48px;
+  }
+}
+
+/* ----------------------------------------------ADVENTAGES */
+
+.advantages {
+  background-color: #fff;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+  justify-content: center;
+}
+
+.advantages-list :last-child {
+  margin-bottom: 0;
+}
+
+.advantages-item {
+  max-width: 264px;
+}
+
+.advantages-subtitles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.advantages-item-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  max-height: 104px;
+  max-width: 288px;
+}
+
+@media screen and (max-width: 1157px) {
+  .advantages-item-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .advantages {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .advantages-list {
+    gap: 72px 24px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 24px) / 2);
+    max-width: 356px;
+  }
+
+  .advantages-subtitles {
+    text-align: start;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+
+  .advantages-item-text {
+    font-weight: 500;
+    width: 356px;
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .advantages-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+  }
+
+  .advantages-list :last-child {
+    margin-right: 0;
+  }
+
+  .advantages-subtitles {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    max-width: 264px;
+  }
+
+  .advantages-item-text {
+    font-weight: 500;
+    width: 264px;
+    height: 104px;
+  }
+}
+
+/* --------------------------------------------------TEAM */
+
+.team {
+  background-color: #f4f4fd;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.team-item {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  min-width: 264px;
+  min-height: 428px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.class-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+  max-width: 100%;
+}
+
+.team-item-container {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  padding-top: 32px;
+}
+
+.team-social-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.team-social-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-social-icon {
+  fill: #f4f4fd;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #404bbf;
+}
+
+@media screen and (max-width: 767px) {
+  .team-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team {
+    height: 1224px;
+  }
+
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .team {
+    height: 732px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+/* -----------------------------------------------PORTFOLIO */
+
+.portfolio {
+  max-height: 1240px;
+
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio {
+    max-height: 1240px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}

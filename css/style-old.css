@@ -29,7 +29,7 @@
 
 /* ---------HERO----------------------------- */
 
-.hero {
+/* .hero {
   background-color: #2e2f42;
   height: 600px;
   padding-top: 188px;
@@ -46,17 +46,16 @@
   background-size: cover;
   margin: auto;
 }
-
-.hero-container {
+------------------------------------------------------ .hero-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
-.hero-title {
+/* .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -64,8 +63,8 @@
   max-width: 496px;
   margin: 0 auto;
 }
-
-.hero-btn {
+--------------------------------------------------------------------- */
+/* .hero-btn {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -86,13 +85,13 @@
 .hero-btn:hover,
 .hero-btn:focus {
   background: #404bbf;
-}
+} */
 
 /* ------------------------------------------ */
 
 /* ---------ADVENTAGES----------------------------- */
 
-.advantages {
+/* .advantages {
   background-color: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -103,8 +102,8 @@
 
 .title {
 }
-
-.advantages-list {
+--------------------------------------------------------------
+  .advantages-list {
   display: flex;
   gap: 24px;
   justify-content: center;
@@ -122,8 +121,8 @@
   text-transform: capitalize;
   margin-bottom: 8px;
 }
-
-.advantages-item-text {
+---------------------------------------------------------------
+  .advantages-item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -146,23 +145,24 @@
 }
 
 .advantages-icons {
-}
+} */
 
 /* -------------------------------------- */
 
 /* ---------TEAM----------------------------- */
 
-.team {
+/* .team {
   background-color: #f4f4fd;
   height: 732px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
+width: 320px;
+height: 2232px;
 
 .team-container {
 }
-
-.team-title {
+---------------------------------------------------------- .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -172,8 +172,7 @@
   margin-bottom: 72px;
   text-align: center;
 }
-
-.team-list {
+---------------------------------------------------------- .team-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -249,7 +248,7 @@
 }
 
 .team-image {
-}
+} */
 
 /* -------------------------------------- */
 
