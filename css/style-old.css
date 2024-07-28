@@ -334,6 +334,12 @@ height: 2232px;
 .logo .footer-logo .logo-part {
 }
 
+.footer-container-items {
+  width: 264px;
+  height: 112px;
+  margin-right: 120px;
+}
+
 .footer-logo {
   display: inline-block;
   font-weight: 700;
@@ -348,6 +354,7 @@ height: 2232px;
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
+/* ----------------------------------  */
 
 .footer-text {
   display: block;
@@ -370,13 +377,13 @@ height: 2232px;
   margin-bottom: 16px;
 }
 
+.footer-social-item {
+}
+/* ------------------------------------------------- */
 .footer-social-list {
   display: flex;
   gap: 16px;
   justify-content: center;
-}
-
-.footer-social-item {
 }
 
 .footer-social-icon {
@@ -388,12 +395,6 @@ height: 2232px;
   flex-direction: column;
   width: 208px;
   height: 80px;
-}
-
-.footer-container-items {
-  width: 264px;
-  height: 112px;
-  margin-right: 120px;
 }
 
 .footer-social-link {
@@ -436,6 +437,8 @@ height: 2232px;
   gap: 24px;
 }
 
+/* ---------------------------------- */
+
 .footer-email-input {
   border: 1px solid #fff;
   border-radius: 4px;
@@ -476,6 +479,7 @@ height: 2232px;
   letter-spacing: 0.04em;
   border: none;
 }
+/* ---------------------------------------- */
 
 .footer-email-input::placeholder {
   font-weight: 400;
@@ -498,7 +502,7 @@ height: 2232px;
   border-color: #31d0aa;
 }
 
-/* -------------------------------------- */
+/* -------------------------------------- ------------------------------- */
 
 .backdrope {
   position: fixed;
