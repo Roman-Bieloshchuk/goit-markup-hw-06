@@ -144,7 +144,7 @@ img {
 
 /* ---------HERO----------------------------- */
 
-.hero {
+/* .hero {
   background-color: #2e2f42;
   height: 600px;
   padding-top: 188px;
@@ -160,15 +160,15 @@ img {
   max-width: 1440px;
   background-size: cover;
   margin: auto;
-}
+} */
 
-.hero-container {
+/* .hero-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
-.hero-title {
+/* .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -178,9 +178,9 @@ img {
   width: 496px;
   max-width: 496px;
   margin: 0 auto;
-}
+} */
 
-.hero-btn {
+/* .hero-btn {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -201,13 +201,13 @@ img {
 .hero-btn:hover,
 .hero-btn:focus {
   background: #404bbf;
-}
+} */
 
 /* ------------------------------------------ */
 
 /* ---------ADVENTAGES----------------------------- */
 
-.advantages {
+/* .advantages {
   background-color: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -226,7 +226,7 @@ img {
 }
 .advantages-item {
   width: calc((100% - 3 * 24px) / 4);
-}
+} */
 
 .advantages-subtitles {
   font-weight: 500;
@@ -248,7 +248,7 @@ img {
   width: 264px;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -259,9 +259,9 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.advantages-item-container {
+/* .advantages-item-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -271,7 +271,7 @@ img {
   height: 112px;
   background: #f4f4fd;
   margin-bottom: 8px;
-}
+} */
 
 .advantages-icons {
 }
