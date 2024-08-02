@@ -524,8 +524,7 @@ img {
 }
 
 .advantages-container {
-  width: 288px;
-  padding: 0;
+  padding: 0 15px;
 }
 
 .advantages-item-container {
@@ -560,8 +559,7 @@ img {
 @media screen and (min-width: 768px) {
   .advantages-container {
     width: 768px;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding: 0 16px;
   }
 
   .advantages-item {
@@ -622,10 +620,17 @@ img {
 
 /* --------------------------------------------TEAM */
 
-.team-container {
-  justify-content: center;
+.team {
   background-color: #f4f4fd;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-container {
+  max-width: 320px;
   padding: 96px 28px;
+  justify-content: center;
 }
 
 .team-title {
@@ -679,6 +684,7 @@ img {
   flex-direction: column;
   padding-top: 32px;
   padding-bottom: 32px;
+  width: 264px;
 }
 
 .team-social-list {
@@ -703,6 +709,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .team-container {
+    max-width: 768px;
     padding: 96px 108px;
   }
 
@@ -717,20 +724,16 @@ img {
 
 @media screen and (min-width: 1158px) {
   .team-container {
-    padding: 120px 156px;
-    max-width: 1440px;
-    min-width: 1128px;
-    height: 780px;
+    max-width: 1158px;
+    padding: 120px 15px;
   }
 
   .team-list {
-    flex-wrap: nowrap;
+    gap: 24px;
   }
 
   .team-item {
     width: calc((100% - 3 * 24px) / 4);
-    min-width: 264px;
-    min-height: 428px;
   }
 
   .team-social-link {
@@ -747,12 +750,17 @@ img {
 /* -----------------------------------------PORTFOLIO */
 
 .portfolio {
+  background-color: #fff;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio-container {
-  background-color: #fff;
   padding: 96px 16px;
-  /* max-width: 320px; */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 320px;
 }
 
 .portfolio-title {
@@ -808,7 +816,8 @@ img {
 
 @media screen and (min-width: 768px) {
   .portfolio-container {
-    /* max-width: 768px; */
+    max-width: 768px;
+    padding: 96px 16px;
   }
 
   .portfolio-list {
@@ -832,12 +841,11 @@ img {
 
 @media screen and (min-width: 1158px) {
   .portfolio-container {
-    /* max-width: 1440px; */
     max-width: 1158px;
+    padding: 120px 15px;
   }
 
   .portfolio-list {
-    width: 1128px;
   }
 
   .portfolio-item {
@@ -875,3 +883,5 @@ img {
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 }
+
+/* --------------------------------------------------------FOOTER */
