@@ -813,7 +813,7 @@
   padding: 0;
 }
 
-.modal-text {
+/* .modal-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -823,7 +823,7 @@
   max-width: 360px;
   margin-bottom: 16px;
   text-align: center;
-}
+} */
 
 .modal-input {
   width: 100%;
@@ -858,7 +858,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
@@ -885,10 +885,10 @@
 .modal-form-window {
   margin-bottom: 8px;
 }
-
+/* 
 .modal-field-form {
   margin-bottom: 16px;
-}
+} */
 
 .modal-icon {
   fill: #2e2f42;
