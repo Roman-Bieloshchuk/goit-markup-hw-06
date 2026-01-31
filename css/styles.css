@@ -231,7 +231,8 @@ input {
 /* ------MOBILE-MENU----- */
 
 .mobile-menu {
-  position: absolute;
+  position: fixed;
+  z-index: 2;
   top: 0;
   left: 0;
   height: 100%;
@@ -325,12 +326,18 @@ input {
   gap: 24px;
 }
 
-.mobile-menu-contacts-link {
+.mobile-menu-contacts-link,
+.mobile-menu-contacts-link-tel {
   display: block;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.mobile-menu-contacts-link-tel {
+  color: #4d5ae5;
 }
 
 .mobile-team-list {
@@ -400,7 +407,13 @@ input {
   background-size: cover;
   background-image:
     linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office-mobile.jpg);
+    url(../images/people-office-mob.jpg);
+
+  @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
+    background-image:
+      linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/people-office-mob-2.jpg);
+  }
 }
 
 .hero-title {
@@ -448,6 +461,17 @@ input {
     background-image:
       linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/people-office-tab.jpg);
+
+    @media screen and (min-resolution: 2x),
+      (-webkit-min-device-pixel-ratio: 2) {
+      background-image:
+        linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-tab-2.jpg);
+    }
   }
 
   .hero-title {
@@ -466,6 +490,17 @@ input {
     background-image:
       linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/people-office.jpg);
+
+    @media screen and (min-resolution: 2x),
+      (-webkit-min-device-pixel-ratio: 2) {
+      background-image:
+        linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2.jpg);
+    }
   }
 
   .hero-title {
@@ -1165,7 +1200,7 @@ input {
   color: rgba(46, 47, 66, 0.4);
 }
 
-.modal-check:checked + .modal-check-label span {
+.modal-check:checked + .modal-check-label .modal-check-wrapper {
   background-color: #404bbf;
   fill: #f4f4fd;
 }
@@ -1180,7 +1215,7 @@ input {
   align-items: center;
 }
 
-.modal-check-label span {
+.modal-check-label .modal-check-wrapper {
   width: 16px;
   height: 16px;
   border-radius: 2px;
